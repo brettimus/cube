@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Brett "Boots" Beutell -- Chief Clown -- @rudeboot
 
 # THANKS
 
-    <name>
+    Cultivated Wit
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Amazon S3, jQuery, Modernizr, Normalize.css, Pure.css, Google Fonts

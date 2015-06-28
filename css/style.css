@@ -1,0 +1,40 @@
+body {
+  background: #fff;
+  color: #050505; }
+
+header {
+  padding: 80px; }
+
+footer {
+  border-top: solid 1px rgba(83, 84, 91, 0.4);
+  bottom: 0;
+  box-sizing: border-box;
+  height: 60px;
+  position: fixed;
+  text-align: right;
+  width: 100%; }
+  footer p {
+    color: #53545B;
+    display: table-cell;
+    float: right;
+    font-size: 11px;
+    padding: 11px;
+    vertical-align: baseline; }
+
+h1 {
+  color: #53545B;
+  font-family: "Londrina Shadow", cursive;
+  font-size: 42px;
+  letter-spacing: .42em;
+  margin: 12px 0;
+  text-align: left; }
+
+p {
+  font-family: "Muli";
+  font-size: 18px;
+  font-weight: 300; }
+
+.text-red {
+  color: #B27D89; }
+
+/*# sourceMappingURL=style.css.map */

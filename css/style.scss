@@ -1,0 +1,57 @@
+// http://coolors.co/app/050505-53545b-b27d89-f8fff6-5c80bc
+
+$display: "Londrina Shadow", cursive;
+$sans-serif: "Muli";
+
+$black: #050505;
+$blue: #5C80BC;
+$gray: #53545B;
+$grey: $gray;
+$red: #B27D89;
+$white: #F8FFF6;
+
+body {
+  background: #fff;
+  color: $black;
+}
+
+header {
+  padding: 80px;
+}
+
+footer {
+  border-top: solid 1px transparentize($grey, .6);
+  bottom: 0;
+  box-sizing: border-box;
+  height: 60px;
+  position: fixed;
+  text-align: right;
+  width: 100%;
+
+  p {
+    color: $grey;
+    display: table-cell;
+    float: right;
+    font-size: 11px;
+    padding: 11px;
+    vertical-align: baseline;
+  }
+}
+
+h1 {
+  color: $gray;
+  font-family: $display;
+  font-size: 42px;
+  letter-spacing: .42em;
+  margin: 12px 0;
+  text-align: left;
+}
+p {
+  font-family: $sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.text-red {
+  color: $red;
+}

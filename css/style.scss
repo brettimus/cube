@@ -1,22 +1,41 @@
+// v0
 // http://coolors.co/app/050505-53545b-b27d89-f8fff6-5c80bc
-
+// v0.5
+// http://coolors.co/app/050505-53545b-b27d89-364652-d33e43
 $display: "Londrina Shadow", cursive;
 $sans-serif: "Muli";
 
 $black: #050505;
 $blue: #5C80BC;
+$blue-green-dark: #364652;
 $gray: #53545B;
 $grey: $gray;
-$red: #B27D89;
+$pink: #B27D89;
+$red: #d33e43;
 $white: #F8FFF6;
+
+a {
+  color: $blue;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  padding: 80px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+header {
+  border-bottom: solid 1px $white; 
+  margin-bottom: 40px;
+}
 
 body {
   background: #fff;
   color: $black;
-}
-
-header {
-  padding: 80px;
 }
 
 footer {
@@ -37,20 +56,97 @@ footer {
   }
 }
 
-h1 {
-  color: $gray;
-  font-family: $display;
-  font-size: 42px;
-  letter-spacing: .42em;
-  margin: 12px 0;
-  text-align: left;
-}
-p {
-  font-family: $sans-serif;
-  font-size: 18px;
-  font-weight: 300;
+
+// Headers
+h1,h2 {
+  color: $black;
 }
 
-.text-red {
-  color: $red;
+h1 {
+  font-family: $display;
+  font-size: 42px;
+}
+
+h3 {
+  color: $gray;
+  font-family: $sans-serif;
+  font-size: 24px;
+}
+
+
+// landing page
+header {
+  margin-bottom: 80px;
+  text-align: left;
+  h1 {
+    color: $gray;
+    font-size: 48px;
+    letter-spacing: .5em;
+    margin: 12px 0;
+    text-transform: uppercase;
+  }
+  p {
+    color: $gray;
+    font-family: $sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }  
+}
+
+// form
+.pure-form {
+  font-family: $sans-serif;
+  label {
+    font-family: $sans-serif;
+  }
+}
+
+// mailchimp
+// importants are to get around their ridiuclous specificity
+#mc_embed_signup {
+  form {
+    padding: 0 !important;    
+  }
+  h2 {
+    font-family: $sans-serif;
+    font-size: 48px !important;
+    margin-bottom: 30px;
+    small {
+      color: transparentize($black, .35);
+      display: block;
+      font-family: $sans-serif;
+      font-size: 18px !important;
+      font-weight: 300;
+      line-height: 24px;
+      margin-top: 35px;
+    }
+    i {
+      font-style: italic;
+    }
+  }
+  div.mce_inline_error {
+    background-color: transparent !important;
+    color: $pink !important;
+  }
+  .asterisk {
+    color: $red !important;
+  }
+
+  input:focus {
+    border-color: $blue !important;
+  }
+} 
+
+// utilities
+.text-center {
+  text-align: center;
+}
+.text-cursive {
+  font-family: $display;
+}
+.text-pink {
+  color: $pink;
+}
+.text-right {
+  text-align: right;
 }

@@ -1,9 +1,21 @@
+a {
+  color: #5C80BC;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.container {
+  padding: 80px;
+  margin: 0 auto;
+  max-width: 600px; }
+
+header {
+  border-bottom: solid 1px #F8FFF6;
+  margin-bottom: 40px; }
+
 body {
   background: #fff;
   color: #050505; }
-
-header {
-  padding: 80px; }
 
 footer {
   bottom: 0;
@@ -20,20 +32,72 @@ footer {
     padding: 11px 11px 0 0;
     vertical-align: bottom; }
 
+h1, h2 {
+  color: #050505; }
+
 h1 {
-  color: #53545B;
   font-family: "Londrina Shadow", cursive;
-  font-size: 42px;
-  letter-spacing: .42em;
-  margin: 12px 0;
-  text-align: left; }
+  font-size: 42px; }
 
-p {
+h3 {
+  color: #53545B;
   font-family: "Muli";
-  font-size: 18px;
-  font-weight: 300; }
+  font-size: 24px; }
 
-.text-red {
+header {
+  margin-bottom: 80px;
+  text-align: left; }
+  header h1 {
+    color: #53545B;
+    font-size: 48px;
+    letter-spacing: .5em;
+    margin: 12px 0;
+    text-transform: uppercase; }
+  header p {
+    color: #53545B;
+    font-family: "Muli";
+    font-size: 18px;
+    font-weight: 300; }
+
+.pure-form {
+  font-family: "Muli"; }
+  .pure-form label {
+    font-family: "Muli"; }
+
+#mc_embed_signup form {
+  padding: 0 !important; }
+#mc_embed_signup h2 {
+  font-family: "Muli";
+  font-size: 48px !important;
+  margin-bottom: 30px; }
+  #mc_embed_signup h2 small {
+    color: rgba(5, 5, 5, 0.65);
+    display: block;
+    font-family: "Muli";
+    font-size: 18px !important;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 35px; }
+  #mc_embed_signup h2 i {
+    font-style: italic; }
+#mc_embed_signup div.mce_inline_error {
+  background-color: transparent !important;
+  color: #B27D89 !important; }
+#mc_embed_signup .asterisk {
+  color: #d33e43 !important; }
+#mc_embed_signup input:focus {
+  border-color: #5C80BC !important; }
+
+.text-center {
+  text-align: center; }
+
+.text-cursive {
+  font-family: "Londrina Shadow", cursive; }
+
+.text-pink {
   color: #B27D89; }
+
+.text-right {
+  text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

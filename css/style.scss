@@ -30,7 +30,7 @@ a {
 
 header {
   border-bottom: solid 1px $white; 
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 body {
@@ -39,9 +39,10 @@ body {
 }
 
 footer {
+  background: #fff;
   bottom: 0;
   box-sizing: border-box;
-  height: 60px;
+  height: 50px;
   position: fixed;
   text-align: right;
   width: 100%;
@@ -51,6 +52,7 @@ footer {
     display: table-cell;
     float: right;
     font-size: 11px;
+    font-family: $sans-serif;
     padding: 11px 11px 0 0;
     vertical-align: bottom;
   }
@@ -76,10 +78,9 @@ h3 {
 
 // landing page
 header {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   text-align: left;
   h1 {
-    color: $gray;
     font-size: 48px;
     letter-spacing: .5em;
     margin: 12px 0;
@@ -109,8 +110,8 @@ header {
   }
   h2 {
     font-family: $sans-serif;
-    font-size: 48px !important;
-    margin-bottom: 30px;
+    font-size: 40px !important;
+    margin-bottom: 12px;
     small {
       color: transparentize($black, .35);
       display: block;
@@ -118,7 +119,7 @@ header {
       font-size: 18px !important;
       font-weight: 300;
       line-height: 24px;
-      margin-top: 35px;
+      margin-top: 15px;
     }
     i {
       font-style: italic;
@@ -132,16 +133,23 @@ header {
     color: $red !important;
   }
 
-  input:focus {
-    border-color: $blue !important;
+  div.mc-field-group {
+    padding-top: 20px;
+    width: 100% !important;      
+  }
+
+  input[name='EMAIL'] {
+    &:focus {
+      border-color: $blue !important;
+    }
   }
 } 
-
 // utilities
 .text-center {
   text-align: center;
 }
-.text-cursive {
+.text-cube {
+  color: $pink;
   font-family: $display;
 }
 .text-pink {
